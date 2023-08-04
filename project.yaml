@@ -1,0 +1,12 @@
+homepage: "https://opendal.apache.org/"
+main_repo: "https://github.com/apache/incubator-opendal.git"
+language: rust
+primary_contact: "github@xuanwo.io"
+auto_ccs:
+    - "dqhl76@gmail.com"
+vendor_ccs:
+    - "dev@opendal.apache.org"
+sanitizers:
+  - address
+fuzzing_engines:
+  - libfuzzer
